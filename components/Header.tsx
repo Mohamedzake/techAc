@@ -414,7 +414,7 @@ export default function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100 shadow-sm">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image src={logo} alt="Logo" className="h-20 w-20" priority />
@@ -469,7 +469,7 @@ export default function Header() {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="lg:hidden fixed inset-0 z-50 bg-white">
-            <div className="flex h-16 items-center justify-between px-4 bg-white border-b">
+            <div className="flex h-20 items-center justify-between px-4 bg-white border-b">
               <Link href="/" className="flex-shrink-0">
                 <Image
                   src={logo}
