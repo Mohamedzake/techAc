@@ -394,7 +394,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import logo from "@/public/next.svg";
+import logo from "@/public/logo.png";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -417,7 +417,7 @@ export default function Header() {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
-            <Image src={logo} alt="Logo" className="h-20 w-20" priority />
+            <Image src={logo} alt="Logo" className="h-32 w-32" priority />
           </Link>
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-4">
@@ -431,7 +431,7 @@ export default function Header() {
                       : "text-gray-700 hover:text-emerald-600"
                   } ${
                     item.isButton &&
-                    "bg-emerald-600 text-white px-6 py-2.5 rounded-full hover:bg-emerald-700 ml-4"
+                    "bg-emerald-600 text-white hover:text-white px-6 py-2.5 rounded-full hover:bg-emerald-700 ml-4"
                   }`}
                 >
                   {item.label}
@@ -474,7 +474,7 @@ export default function Header() {
                 <Image
                   src={logo}
                   alt="Logo"
-                  className="h-20 w-20"
+                  className="h-32 w-32"
                   onClick={() => setIsMenuOpen(false)}
                 />
               </Link>
