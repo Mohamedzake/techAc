@@ -34,11 +34,14 @@ export default function Home() {
       </div>
       <div id="courses">
         <LatestCourses />
-      </div>{" "}
-      <InternshipOpportunities />
-      <ContactUs />
+      </div>
+      <div id="internship">
+        <InternshipOpportunities />
+      </div>
+      <div id="contactus">
+        <ContactUs />
+      </div>
       <Footer />
-      <div id="contactus">{/* Contact Us Section */}</div>
     </div>
   );
 }

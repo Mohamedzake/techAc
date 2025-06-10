@@ -405,6 +405,7 @@ export default function Header() {
     { href: "#services", label: "Services" },
     { href: "#about", label: "About" },
     { href: "#courses", label: "Courses" },
+    { href: "#internship", label: "Internship" },
     { href: "#contactus", label: "Contact Us", isButton: true },
   ];
 
