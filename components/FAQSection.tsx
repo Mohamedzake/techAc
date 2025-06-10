@@ -33,7 +33,7 @@ export default function FAQSection() {
     <section className="py-20 px-4 bg-white ">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
         {/* Left: Accordion */}
-        <div className="bg-[#7b4eff] py-20 px-14 rounded-[3rem] text-white">
+        <div className="bg-[#7b4eff] py-20 px-6 md:px-14 rounded-[3rem] text-white">
           {faqItems.map((item, index) => (
             <div
               key={index}

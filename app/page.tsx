@@ -11,9 +11,12 @@
 //     </div>
 //   );
 // }
+import ContactUs from "@/components/ContactUs";
 import FAQSection from "@/components/FAQSection";
 import FeatureCards from "@/components/FeatureCards";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import InternshipOpportunities from "@/components/InternshipOpportunities";
 import LatestCourses from "@/components/LatestCourses";
 
 export default function Home() {
@@ -31,7 +34,10 @@ export default function Home() {
       </div>
       <div id="courses">
         <LatestCourses />
-      </div>
+      </div>{" "}
+      <InternshipOpportunities />
+      <ContactUs />
+      <Footer />
       <div id="contactus">{/* Contact Us Section */}</div>
     </div>
   );
