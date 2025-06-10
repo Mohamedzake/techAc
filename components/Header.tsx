@@ -417,7 +417,7 @@ export default function Header() {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
-            <Image src={logo} alt="Logo" className="h-32 w-32" priority />
+            <Image src={logo} alt="Logo" className="h-36 w-36" priority />
           </Link>
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-4">
@@ -474,7 +474,7 @@ export default function Header() {
                 <Image
                   src={logo}
                   alt="Logo"
-                  className="h-32 w-32"
+                  className="h-36 w-36"
                   onClick={() => setIsMenuOpen(false)}
                 />
               </Link>
