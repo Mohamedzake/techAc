@@ -12,21 +12,21 @@ type Slide = {
 };
 const slides: Slide[] = [
   {
-    title: "With Scholar Teachers, Everything Is Easier",
+    title: "With Techify Teachers, Everything Is Easier",
     description:
-      "Scholar is free CSS template designed by TemplateMo for online educational related websites. This layout is based on the famous Bootstrap v5.3.0 framework.",
+      "Techify is free CSS template designed by TemplateMo for online educational related websites. This layout is based on the famous Bootstrap v5.3.0 framework.",
     image: "/1.jpg",
   },
   {
     title: " Teachers, Everything Is Easier",
     description:
-      "Scholar is free CSS template designed by TemplateMo for online educational related websites. This layout is based on the famous Bootstrap v5.3.0 framework.",
+      "Techify is free CSS template designed by TemplateMo for online educational related websites. This layout is based on the famous Bootstrap v5.3.0 framework.",
     image: "/1.jpg",
   },
   {
     title: " Everything Is Easier",
     description:
-      "Scholar is free CSS template designed by TemplateMo for online educational related websites. This layout is based on the famous Bootstrap v5.3.0 framework.",
+      "Techify is free CSS template designed by TemplateMo for online educational related websites. This layout is based on the famous Bootstrap v5.3.0 framework.",
     image: "/1.jpg",
   },
 ];
@@ -52,7 +52,7 @@ export default function HeroSlider() {
         {/* <div className="absolute inset-0 bg-black  rounded-[2rem]" /> */}
       </div>
 
-      <div className="relative z-10 flex flex-col justify-center items-start h-full px-10 max-w-5xl mx-auto text-white">
+      <div className="relative z-10 flex flex-col justify-center items-start h-full px-5 md:px-10 max-w-5xl mx-auto text-white">
         <span className="mb-4 px-5 py-1  bg-opacity-20 rounded-full text-sm font-medium uppercase bg-green-600">
           Our Courses
         </span>
@@ -63,14 +63,14 @@ export default function HeroSlider() {
           {slides[current].description}
         </p>
         <div className="flex gap-4">
-          <button className="  font-semibold py-2 px-6 rounded-full shadow-md bg-[#8854d0]  hover:bg-[#553e72] transition">
+          {/* <button className="  md:font-semibold py-2 px-6 rounded-full shadow-md bg-[#8854d0]  hover:bg-[#553e72] transition">
             Request Demo
-          </button>
+          </button> */}
           <button className="flex items-center gap-2 py-2 px-5 border border-white rounded-full hover:bg-white hover:text-[#8854d0] transition">
             <div className="bg-white text-[#8854d0] rounded-full py-2 px-3 ">
               ▶
             </div>
-            What&apos;s Scholar?
+            What&apos;s Techify?
           </button>
         </div>
       </div>
