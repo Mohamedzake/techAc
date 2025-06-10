@@ -174,7 +174,7 @@ const LatestCourses: React.FC = () => {
       : courses.filter((course) => course.category === selectedCategory);
 
   return (
-    <div className="w-full bg-gradient-to-b from-white to-amber-100 py-20">
+    <div className="w-full bg-gradient-to-b from-white to-amber-100 py-28">
       <h2 className="text-3xl font-bold text-center mb-8 text-slate-800">
         🎓 Latest Courses
       </h2>

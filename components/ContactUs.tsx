@@ -4,7 +4,7 @@ import React from "react";
 
 const ContactUsGreen = () => {
   return (
-    <section className="bg-gradient-to-br from-[#e8f5e9] to-[#f1fdf3] text-green-900 py-20 px-4">
+    <section className="bg-gradient-to-br from-[#e8f5e9] to-[#f1fdf3] text-green-900 py-28 px-4">
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-4xl font-bold text-green-700">Let’s Connect</h2>
         <p className="text-green-600 mt-4 max-w-2xl mx-auto">

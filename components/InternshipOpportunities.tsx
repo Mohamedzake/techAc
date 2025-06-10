@@ -37,7 +37,7 @@ const internships = [
 
 const InternshipOpportunities: React.FC = () => {
   return (
-    <div className="w-full bg-slate-100 py-20 ">
+    <div className="w-full bg-slate-100 py-28 ">
       <h2 className="text-3xl font-bold text-center mb-10 text-slate-800">
         💼 Internship Opportunities
       </h2>
