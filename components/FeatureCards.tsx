@@ -1,23 +1,43 @@
 "use client";
 import { BookOutline, CreateOutline, PersonOutline } from "react-ionicons";
 
+// const features = [
+//   {
+//     title: "Online Degrees",
+//     description:
+//       "Whenever you need free templates in HTML CSS, you just remember TemplateMo website.",
+//     icon: <BookOutline color="#ffffff" height="32px" width="32px" />,
+//   },
+//   {
+//     title: "Short Courses",
+//     description:
+//       "You can browse free templates based on different tags such as digital marketing, etc.",
+//     icon: <CreateOutline color="#ffffff" height="32px" width="32px" />,
+//   },
+//   {
+//     title: "Web Experts",
+//     description:
+//       "You can start learning HTML CSS by modifying free templates from our website too.",
+//     icon: <PersonOutline color="#ffffff" height="32px" width="32px" />,
+//   },
+// ];
 const features = [
   {
-    title: "Online Degrees",
+    title: "دورات برمجة متكاملة",
     description:
-      "Whenever you need free templates in HTML CSS, you just remember TemplateMo website.",
+      ".تقدم مسارات تعليمية شاملة لتعلّم البرمجة من البداية حتى الاحتراف",
     icon: <BookOutline color="#ffffff" height="32px" width="32px" />,
   },
   {
-    title: "Short Courses",
+    title: "تدريب عملي ومكثّف",
     description:
-      "You can browse free templates based on different tags such as digital marketing, etc.",
+      "احترف البرمجة من خلال مشاريع تطبيقية ودورات قصيرة تركّز على المهارات العملية المطلوبة في السوق.",
     icon: <CreateOutline color="#ffffff" height="32px" width="32px" />,
   },
   {
-    title: "Web Experts",
+    title: "موجّهون وخبراء تقنيون",
     description:
-      "You can start learning HTML CSS by modifying free templates from our website too.",
+      "احصل على دعم وتوجيه من خبراء في مجال تطوير البرمجيات لمساعدتك في بناء مسارك المهني.",
     icon: <PersonOutline color="#ffffff" height="32px" width="32px" />,
   },
 ];

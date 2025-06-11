@@ -14,9 +14,8 @@ const Footer: React.FC = () => {
             <Image src={logo} alt="Logo" className="h-14 w-44 " priority />
           </Link>
           {/* <h3 className="text-xl font-bold text-white mb-4">🚀 Techify</h3> */}
-          <p className="text-sm">
-            Empowering the next generation of developers through quality
-            education and real-world training.
+          <p className="text-xl">
+            نصنع مطوري المستقبل بتعليم تقني متميز وتدريب مبني على مشاريع حقيقية
           </p>
         </div>
 
